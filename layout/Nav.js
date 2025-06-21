@@ -16,7 +16,7 @@ const Nav = () => {
             }
           >
             <Link legacyBehavior href="/">Home</Link>
-            <ul>
+            {/* <ul>
               <li>
                 <Link legacyBehavior href="/">
                   Type 1
@@ -27,7 +27,7 @@ const Nav = () => {
                   Type 2
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           {/* <li className={pathname == "/prices" ? "mil-active" : ""}>
             <Link legacyBehavior href="/prices">

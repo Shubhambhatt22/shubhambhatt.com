@@ -26,13 +26,13 @@ const DefaultHeader = () => {
           {/* <a className="mil-logo">
             <img src="/img/logo.png" alt="logo" />
           </a> */}
-          <h3>SB</h3>
+          <h3 className="mil-logo">SB</h3>
         </Link>
         <Nav />
       </div>
       <div className="mil-social">
-        <ul>
-          <li>
+      <ul>
+          {/* <li>
             <a
               href="https://facebook.com"
               target="_blank"
@@ -40,8 +40,8 @@ const DefaultHeader = () => {
             >
               <i className="fab fa-facebook" />
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a
               href="https://instagram.com"
               target="_blank"
@@ -49,10 +49,10 @@ const DefaultHeader = () => {
             >
               <i className="fab fa-instagram" />
             </a>
-          </li>
+          </li> */}
           <li>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/shubham-bhatt-06a137203/"
               target="_blank"
               className="social-icon"
             >
@@ -61,11 +61,11 @@ const DefaultHeader = () => {
           </li>
           <li>
             <a
-              href="https://youtube.com"
+              href="https://github.com/Shubhambhatt22"
               target="_blank"
               className="social-icon"
             >
-              <i className="fab fa-youtube" />
+              <i className="fab fa-github" />
             </a>
           </li>
         </ul>
@@ -82,13 +82,13 @@ const Header1 = () => {
             <img src="/img/logo.png" alt="logo" />
           </a> */}
 
-          <h3>SB</h3>
+          <h3 className="mil-logo">SB</h3>
         </Link>
         <Nav />
       </div>
       <div className="mil-social">
         <ul>
-          <li>
+          {/* <li>
             <a
               href="https://facebook.com"
               target="_blank"
@@ -96,8 +96,8 @@ const Header1 = () => {
             >
               <i className="fab fa-facebook" />
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a
               href="https://instagram.com"
               target="_blank"
@@ -105,10 +105,10 @@ const Header1 = () => {
             >
               <i className="fab fa-instagram" />
             </a>
-          </li>
+          </li> */}
           <li>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/shubham-bhatt-06a137203/"
               target="_blank"
               className="social-icon"
             >
@@ -117,11 +117,11 @@ const Header1 = () => {
           </li>
           <li>
             <a
-              href="https://youtube.com"
+              href="https://github.com/Shubhambhatt22"
               target="_blank"
               className="social-icon"
             >
-              <i className="fab fa-youtube" />
+              <i className="fab fa-github" />
             </a>
           </li>
         </ul>
@@ -136,7 +136,7 @@ const Header2 = () => {
         {/* <a className="mil-logo">
           <img src="/img/logo.png" alt="logo" />
         </a> */}
-        <h3>SB</h3>
+        <h3 className="mil-logo">SB</h3>
       </Link>
       <Nav />
     </div>

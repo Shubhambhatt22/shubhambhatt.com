@@ -5,7 +5,7 @@ import { Fragment, useEffect, useRef, useState } from "react";
 const PortfolioIsotope = () => {
   // Isotope
   const isotope = useRef();
-  const [filterKey, setFilterKey] = useState("*");
+  const [filterKey, setFilterKey] = useState("fil-link");
   useEffect(() => {
     setTimeout(() => {
       isotope.current = new Isotope(".mil-portfolio-grid", {
@@ -38,7 +38,7 @@ const PortfolioIsotope = () => {
       <div className="mil-filter">
         <div className="container">
           <ul className="mil-filter-links mil-mb-30">
-            <li>
+            {/* <li>
               <a
                 href="#"
                 className={`c-pointer ${activeBtn("*")}`}
@@ -46,7 +46,7 @@ const PortfolioIsotope = () => {
               >
                 All
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="#"
@@ -54,7 +54,7 @@ const PortfolioIsotope = () => {
                 onClick={handleFilterKeyChange("fil-link")}
                 data-filter=".fil-link"
               >
-                Link
+                Projects
               </a>
             </li>
             <li>
@@ -67,7 +67,7 @@ const PortfolioIsotope = () => {
                 Gallery
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#"
                 data-filter=".fil-image"
@@ -76,7 +76,7 @@ const PortfolioIsotope = () => {
               >
                 Image
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -193,7 +193,7 @@ const PortfolioIsotope = () => {
             </Link>
           </div>
         </div>
-        <div className="mil-pagination-panel">
+        {/* <div className="mil-pagination-panel">
           <ul className="mil-pagination-numbers">
             <li className="mil-active">
               <a href="#.">01</a>
@@ -240,7 +240,7 @@ const PortfolioIsotope = () => {
             </div>
             <div className="mil-reviews-pagination mil-upper mil-mb-30" />
           </div>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );

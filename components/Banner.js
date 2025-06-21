@@ -22,7 +22,7 @@ const Banner = ( { bgImage = "img/faces/6.jpg" } ) => {
                 <h1 className="mil-up mil-mb-40">Shubham Bhatt</h1>
                 <div className="mil-short mil-left-offset">
                   <p className="mil-mb-30">
-                    From Kotdwar, Uttarakhand currently Living in Noida. I have rich experience in web design and Development
+                    From Kotdwar, Uttarakhand currently Living in Noida. I have 2+ years of IT experience in web design and Development
                     also I am good at wordpress.
                   </p>
                   <div className="mil-buttons-frame">
@@ -32,7 +32,11 @@ const Banner = ( { bgImage = "img/faces/6.jpg" } ) => {
                     <Link legacyBehavior href="/contact">
                       <a className="mil-button">Contact me</a>
                     </Link>
+                    <Link legacyBehavior href="/contact">
+                      <a className="mil-button">Download CV</a>
+                    </Link>
                   </div>
+                  
                 </div>
               </div>
             </div>
