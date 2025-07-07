@@ -38,7 +38,7 @@ const About = () => {
                   HTML, CSS, JavaScript, and React.js.
                 </p>
                 <div className="mil-buttons-frame">
-                  <Link legacyBehavior href="/portfolio">
+                  <Link legacyBehavior href="/portfolio" >
                     <a className="mil-button">Download CV</a>
                   </Link>
                 </div>

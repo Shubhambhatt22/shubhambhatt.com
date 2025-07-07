@@ -32,7 +32,7 @@ const Banner = ( { bgImage = "img/faces/6.jpg" } ) => {
                     <Link legacyBehavior href="/contact">
                       <a className="mil-button">Contact me</a>
                     </Link>
-                    <Link legacyBehavior href="resume/Shubham_resume.pdf" download>
+                    <Link legacyBehavior href="resume/Shubham_resume.pdf" download target="_blank">
                       <a className="mil-button">Download CV</a>
                     </Link>
                   </div>
