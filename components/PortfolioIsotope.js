@@ -94,12 +94,12 @@ const PortfolioIsotope = () => {
                 </div>
                 <div className="mil-project-descr">
                   <p className="mil-upper mil-accent mil-mb-15">Link</p>
-                  <h4 className="mil-up">The Woman In Red Walking</h4>
+                  <h4 className="mil-up">Job Application Tracker</h4>
                 </div>
               </div>
             </Link>
           </div>
-          <div className="mil-grid-item fil-gallery">
+          {/* <div className="mil-grid-item fil-gallery">
             <a
               href="#gallery-1"
               className="mil-portfolio-item mil-long-item mil-mb-60 mfp-gallery"
@@ -120,8 +120,8 @@ const PortfolioIsotope = () => {
               <a href="img/portfolio/3.jpg" />
               <a href="img/portfolio/4.jpg" />
             </div>
-          </div>
-          <div className="mil-grid-item fil-image">
+          </div> */}
+          {/* <div className="mil-grid-item fil-image">
             <a
               href="img/portfolio/3.jpg"
               className="mil-portfolio-item mil-square-item mil-mb-60 mfp-image"
@@ -137,24 +137,25 @@ const PortfolioIsotope = () => {
                 <h4 className="mil-up">Aesthetic Buildings</h4>
               </div>
             </a>
-          </div>
+          </div> */}
           <div className="mil-grid-item fil-link">
-            <Link legacyBehavior href="/project">
+            <Link legacyBehavior href="https://stock-screener-sigma.vercel.app/">
               <div className="mil-portfolio-item mil-long-item mil-mb-60">
                 <div className="mil-cover">
-                  <img src="/img/portfolio/4.jpg" alt="cover" />
+                  <img src="/img/portfolio/stock1.png" alt="cover" />
                   <div className="mil-hover-link">
                     <i className="fas fa-link" />
                   </div>
                 </div>
                 <div className="mil-project-descr">
                   <p className="mil-upper mil-accent mil-mb-15">Link</p>
-                  <h4 className="mil-up">Space Exploration</h4>
+                  <h4 className="mil-up">Stock Screener</h4>
+                   <p>React.Js, AntD, Firebase Authentication, Alpha vantage stock api </p>
                 </div>
               </div>
             </Link>
           </div>
-          <div className="mil-grid-item fil-gallery">
+          {/* <div className="mil-grid-item fil-gallery">
             <a
               href="#gallery-2"
               className="mil-portfolio-item mil-long-item mil-mb-60 mfp-gallery"
@@ -175,19 +176,20 @@ const PortfolioIsotope = () => {
               <a href="img/portfolio/3.jpg" />
               <a href="img/portfolio/4.jpg" />
             </div>
-          </div>
+          </div> */}
           <div className="mil-grid-item fil-link">
-            <Link legacyBehavior href="/project">
+            <Link legacyBehavior href="https://weatherly-tan.vercel.app/">
               <div className="mil-portfolio-item mil-square-item mil-mb-60">
                 <div className="mil-cover">
-                  <img src="/img/portfolio/6.jpg" alt="cover" />
+                  <img src="/img/portfolio/weather.png" alt="cover" />
                   <div className="mil-hover-link">
                     <i className="fas fa-link" />
                   </div>
                 </div>
                 <div className="mil-project-descr">
                   <p className="mil-upper mil-accent mil-mb-15">Link</p>
-                  <h4 className="mil-up">Contact Modern</h4>
+                  <h4 className="mil-up">Weatherly</h4>
+                  <p>Weather App using react and open weather api</p>
                 </div>
               </div>
             </Link>

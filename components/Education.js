@@ -13,8 +13,9 @@ const Education = () => {
               <h2 className="mil-up mil-mb-60">Experience</h2>
               <p>
                 Extensive experience in developing web applications using:
-                HTML5, CSS3, SASS, JavaScript, React JS, Next JS, AntD, React
-                Flow, Node.js, Express JS, mongoDB, .
+                HTML5, CSS3, SASS, JavaScript, React JS, Next JS, Tailwind CSS,
+                Bootstrap, AntD, React Flow, Redux, Zustand Node.js, Express JS,
+                mongoDB, Git/Github, AWS S3, AWS Cloudfront, cPanel, Firebase.
               </p>
             </div>
           </div>
@@ -53,15 +54,16 @@ const Education = () => {
               </div>
               <div className="mil-box-text">
                 <p className="mil-upper mil-text-lg mil-mb-15">
-                 Shivila Technologies
+                  Shivila Technologies
                 </p>
                 <p className="mil-upper mil-upper-sm mil-mb-30">
                   Sept 2023 <span className="mil-accent">to</span> Nov 2023
                 </p>
                 <p>
-              Designed and implemented an admin panel for a grocery website using React, streamlining operations and improving management efficiency. Contributed to a housing booking platform with a focus on usability and intuitive UI/UX design.
-
-
+                  Designed and implemented an admin panel for a grocery website
+                  using React, streamlining operations and improving management
+                  efficiency. Contributed to a housing booking platform with a
+                  focus on usability and intuitive UI/UX design.
                 </p>
               </div>
             </div>
